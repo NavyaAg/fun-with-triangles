@@ -19,3 +19,5 @@ function calculateSumOfAngles(){
     sum+=Number(angle.value)})
     return sum;
 }
+
+/*validate side>0*/
