@@ -7,5 +7,5 @@ calculate.addEventListener("click",function calculateArea(){
     sides.forEach((side)=>{
         product*=(side.value);
     })
-    message.innerText="area is "+ (0.5*product);
+    message.innerText="area is "+ (0.5*product) + " cm";
 })

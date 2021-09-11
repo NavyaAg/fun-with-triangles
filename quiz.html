@@ -4,40 +4,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+
+     <!--Google font stylesheets-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <header>TRIANGLE QUIZ</header>
+        <header><h1>TRIANGLE QUIZ</h1> </header>
         <section>
             <form class="quiz-form">
                 <div class="quiz-container">
-                    <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</p>
-                    <label ><input type="radio" required="true" name="Question 1" value="85°" >85°</label>
-                    <label ><input type="radio" name="Question 1" value="65°" >65°</label>
-                    <label ><input type="radio" name="Question 1" value="45°" >45°</label>
+                    <p class="input-label">There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</p>
+                    <label ><input class="options"type="radio" required="true" name="Question 1" value="85°" >85°</label>
+                    <label ><input class="options"type="radio" name="Question 1" value="65°" >65°</label>
+                    <label ><input class="options"type="radio" name="Question 1" value="45°" >45°</label>
                 </div>
                 <div class="quiz-container">
-                    <p>A scalene triangle has ___ lines of symmetry</p>
-                    <label ><input type="radio" name="Question 2" value="two" >two</label>
-                    <label ><input type="radio" name="Question 2" value="no" required="required">No</label>
-                    <label ><input type="radio" name="Question 2" value="12" >12</label>
+                    <p  class="input-label">A scalene triangle has ___ lines of symmetry</p>
+                    <label ><input  class="options"type="radio" name="Question 2" value="two" >two</label>
+                    <label ><input  class="options"type="radio" name="Question 2" value="no" required="required">No</label>
+                    <label ><input  class="options"type="radio" name="Question 2" value="12" >12</label>
                 </div>
                 <div class="quiz-container">
-                    <p>The perimeter of scalene triangle with sides a, b, c is</p>
-                    <label ><input type="radio" name="Question 3" value="a + b + c" required="required">a + b + c</label>
-                    <label ><input type="radio" name="Question 3" value="2a" >2a</label>
-                    <label ><input type="radio" name="Question 3" value="None of these" >None of these</label>
+                    <p  class="input-label">The perimeter of scalene triangle with sides a, b, c is</p>
+                    <label ><input class="options" type="radio" name="Question 3" value="a + b + c" required="required">a + b + c</label>
+                    <label ><input  class="options"type="radio" name="Question 3" value="2a" >2a</label>
+                    <label ><input  class="options"type="radio" name="Question 3" value="None of these" >None of these</label>
                 </div>
                 <div class="quiz-container">
-                    <p>Which of the following triangles are always similar?</p>
-                    <label ><input type="radio" name="Question 4" value="Equilateral triangle" required="required">Equilateral triangle</label>
-                    <label ><input type="radio" name="Question 4" value="Isosceles triangle">Isosceles triangle</label>
-                    <label ><input type="radio" name="Question 4" value="Scalene Triangle" >Scalene Triangle</label>
+                    <p  class="input-label">Which of the following triangles are always similar?</p>
+                    <label ><input  class="options"type="radio" name="Question 4" value="Equilateral triangle" required="required">Equilateral triangle</label>
+                    <label ><input  class="options"type="radio" name="Question 4" value="Isosceles triangle">Isosceles triangle</label>
+                    <label ><input  class="options"type="radio" name="Question 4" value="Scalene Triangle" >Scalene Triangle</label>
                 </div>
                 <div class="quiz-container">
-                    <p>A triangle can have</p>
-                    <label ><input type="radio" name="Question 5" value="one right angle" >one right angle</label>
-                    <label ><input type="radio" name="Question 5" value="two right angle" required="required">two right angle</label>
+                    <p  class="input-label">A triangle can have</p>
+                    <label ><input  class="options"type="radio" name="Question 5" value="one right angle" >one right angle</label>
+                    <label ><input  class="options"type="radio" name="Question 5" value="two right angle" required="required">two right angle</label>
                 </div>               
             </form>
             <button id="btn-submit" aria-required="true">Submit</button>
