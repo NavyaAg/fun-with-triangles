@@ -7,5 +7,5 @@ calculate.addEventListener("click",function calculateHypotenuse(){
     sides.forEach((side)=>{
         sum+=(side.value)*(side.value);
     })
-    message.innerText="hypotenuse is "+( Math.sqrt(sum)).toFixed(2)+" cm";
+    message.innerText="hypotenuse is "+( Math.sqrt(sum)).toFixed(2)+" cm²";
 })
